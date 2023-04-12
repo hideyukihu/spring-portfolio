@@ -1,0 +1,7 @@
+FROM mysql:8.0.32-debian
+
+RUN apt-get update -y
+
+ENV MYSQL_USER=hideyukihu
+ENV MYSQL_DATABASE=portfolio
+ENV MYSQL_ROOT_PASSWORD=root
